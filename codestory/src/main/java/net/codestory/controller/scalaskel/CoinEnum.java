@@ -7,6 +7,7 @@ package net.codestory.controller.scalaskel;
  * Time: 15:39
  * To change this template use File | Settings | File Templates.
  */
+@Deprecated
 public enum CoinEnum {
     FOO(1),
     BAR(7),

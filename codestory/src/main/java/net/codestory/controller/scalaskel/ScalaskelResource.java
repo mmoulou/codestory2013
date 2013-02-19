@@ -37,7 +37,6 @@ public class ScalaskelResource implements Controller {
         try {
             responseList.clear();
             sum = Integer.parseInt(matchResult.get("coinValue"));
-//            httpResponse.setHeader("CONTENT_TYPE", "application/json; charset=UTF-8");
             List<CoinEnum> allCoinEnums = Lists.newArrayList((CoinEnum[]) Class.forName("net.codestory.controller.scalaskel.CoinEnum").getEnumConstants());
             Map<CoinEnum, Integer> coinPieces = Maps.newHashMap();
             constructResult(0, allCoinEnums,  coinPieces);
@@ -57,7 +56,6 @@ public class ScalaskelResource implements Controller {
         final StringWriter stringWriter = new StringWriter();
         final JsonGenerator jsonGenerator = jsonFactory.createJsonGenerator(stringWriter);
 
-//        jsonGenerator.writeStartObject();
         jsonGenerator.writeStartArray();
         for(Map<CoinEnum, Integer> map : responseList){
             jsonGenerator.writeStartObject();
@@ -67,7 +65,6 @@ public class ScalaskelResource implements Controller {
             jsonGenerator.writeEndObject();
         }
         jsonGenerator.writeEndArray();
-//        jsonGenerator.writeEndObject();
         jsonGenerator.close();
 
         return stringWriter.toString();
