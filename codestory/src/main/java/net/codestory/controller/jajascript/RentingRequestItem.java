@@ -1,4 +1,4 @@
-package net.codestory.controller.javascript;
+package net.codestory.controller.jajascript;
 
 //import org.codehaus.jackson.annotate.JsonProperty;
 

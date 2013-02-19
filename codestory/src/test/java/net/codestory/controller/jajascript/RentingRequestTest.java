@@ -1,4 +1,4 @@
-package net.codestory.controller.javascript;
+package net.codestory.controller.jajascript;
 
 import junit.framework.Assert;
 import org.codehaus.jackson.JsonFactory;

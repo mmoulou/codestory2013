@@ -7,7 +7,7 @@ import net.codestory.controller.MultipleChoiceResource;
 import net.codestory.controller.MailAddressResource;
 import net.codestory.controller.arithmeticexpression.ArithmeticExpressionResource;
 import net.codestory.controller.ennonce.EnonoceResource;
-import net.codestory.controller.javascript.JajaScriptResource;
+import net.codestory.controller.jajascript.JajaScriptResource;
 import net.codestory.controller.scalaskel.ScalaskelResource;
 import net.codestory.controller.NoResponseResource;
 import net.codestory.controller.YESResponseResource;

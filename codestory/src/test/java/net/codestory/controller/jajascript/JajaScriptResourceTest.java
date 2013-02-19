@@ -1,4 +1,4 @@
-package net.codestory.controller.javascript;
+package net.codestory.controller.jajascript;
 
 import com.google.common.collect.Lists;
 import com.google.gdata.util.common.base.Pair;
