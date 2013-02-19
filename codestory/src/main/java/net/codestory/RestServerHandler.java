@@ -34,11 +34,11 @@ public class RestServerHandler extends SimpleChannelUpstreamHandler  {
             final HttpRequest httpRequest = (HttpRequest) msg;
             final String requestPath = httpRequest.getUri();
 
-            logger.info("Nouvelle question: " + requestPath);
+            logger.info("new question: " + requestPath);
             final RouteResult routeResult = dispatcher.getResourceForUri(requestPath);
             HttpResponse httpResponse = new DefaultHttpResponse(HTTP_1_1, HttpResponseStatus.OK);
             if(routeResult == null) {
-                logger.info("New Question of need to update one regex: " + requestPath);
+                logger.info("New Question need to be implemented: " + requestPath);
                 logger.info(httpRequest.toString());
                 sendError(ctx,HttpResponseStatus.BAD_REQUEST);
             } else {
