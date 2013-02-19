@@ -1,4 +1,4 @@
 codestory2013
 =============
 
-Code Repository Challenge 2013
+Code source for codestory Challenge 2013
