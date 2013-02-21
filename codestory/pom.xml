@@ -4,7 +4,7 @@
 	<groupId>net.challenge</groupId>
 	<artifactId>codestory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<!-- hello -->
+<!-- hello 2 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
